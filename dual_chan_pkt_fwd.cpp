@@ -379,7 +379,7 @@ void SetupLoRa(byte CE)
       sx1272 = false;
     } else {
       printf("Transceiver version 0x%02X\n", version);
-      Die("Unrecognized transceiver");
+      // Die("Unrecognized transceiver");
     }
   }
 
